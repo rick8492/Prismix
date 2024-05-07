@@ -1,0 +1,60 @@
+body{
+    background-image: url(img/FONDO.jpg);
+    
+}
+
+
+
+.Titulo1{
+    background-image: linear-gradient(to right, purple, aqua);
+    color: transparent;
+    -webkit-background-clip: text;   
+    position: absolute;
+    text-align: center;
+    left:200px;
+    bottom: 400px;
+    
+}
+
+.letra_sola{
+    background-image: linear-gradient(to right, purple, aqua);
+    color: transparent;
+    -webkit-background-clip: text;
+    position: absolute;
+    left:270px;
+    bottom: 435px;
+}
+
+.siguiente{
+    background-image: linear-gradient(to right, purple, aqua);
+    color: transparent;
+    -webkit-background-clip: text;
+    position: absolute;
+    left:310px;
+    bottom: 400px;
+}
+
+.texto1{
+    background-image: linear-gradient(to right, purple, aqua);
+    color: transparent;
+    -webkit-background-clip: text;
+    z-index: 20;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    bottom: 30px;
+    left: 200px;
+    
+}
+
+.cuadro1 {
+    position: absolute;
+    background: #001a2b;
+    border-radius: 30px;
+    width: 400px;
+    right: 800px;
+    top: 270px;
+    height: 300px;
+    text-align: center;
+}

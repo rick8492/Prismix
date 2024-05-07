@@ -1,0 +1,456 @@
+*{
+box-sizing: border-box;
+}
+h1{
+    font-size: 7.5em;
+    position: relative;
+    bottom: -70px;
+    
+}
+
+h3{
+font-size: 2.1em;
+
+}
+p{
+font-size: 1.3em;
+}
+button{
+font-size: 1.3em;
+    border-radius: 1.0em;
+border-color: rgb(208, 0, 255);
+padding: 0.3em;
+box-shadow: 2px 2px 10px rgb(255, 0, 68) ;
+color: rgb(56, 12, 78);
+background-color: rgb(216, 86, 228);
+}
+button:hover{
+background-color: rgb(239, 234, 134);
+
+}
+body{
+margin: 0;
+background-repeat:no-repeat;
+background-size: cover;
+
+}
+
+.coso{
+background-color: rgb(255, 255, 255);
+height: 150px;
+border-radius: 50px;
+position: relative;
+top: 200px;
+
+}
+
+.hola{
+
+  background: linear-gradient( #0647f9, #b877e7, #5dd6df);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+text-shadow: blue;
+position: absolute;
+left: 170px;
+bottom: 10px;
+}
+
+h3,p,button {
+    position: relative;
+top: 300px;
+
+}
+
+div.que{
+background: rgb(58, 0, 139);
+position: absolute;
+    border-radius: 30px;
+    width: 700px;
+    left: 500px;
+    top: 600px;
+    height: 400px;
+    z-index: 1;
+    text-align: center;
+}
+.otra{
+    background-image: linear-gradient(to right, rgb(138, 71, 244), rgb(74, 247, 221));
+height: 1000px;
+position: relative;
+z-index: -1;
+}
+
+.holp{
+    background: rgb(58, 0, 139);
+    position: absolute;
+        border-radius: 30px;
+        width: 500px;
+        left: -450px;
+        top: 500px;
+        height: 600px;
+        z-index: 1;
+        text-align: center;
+
+}
+
+.roo{
+
+    background: rgb(58, 0, 139);
+    position: absolute;
+        border-radius: 30px;
+        width: 500px;
+        left: 200px;
+        top: 1100px;
+        height: 500px;
+        z-index: 1;
+        text-align: center;
+
+}
+
+.info-1, .info-2, .info-3 {
+
+    color: #fff;
+}
+
+.info-1 {
+
+    position: absolute;
+    top: -300px;
+    width: 600px;
+    left: 50px;
+}
+
+
+.info-2 {
+
+    position: absolute;
+    top: -300px;
+    width: 400px;
+    left: 50px;
+}
+
+
+.info-3 {
+
+    position: absolute;
+    top: -300px;
+    width: 400px;
+    left: 50px;
+}
+ .pris{
+position: relative;
+bottom: 500px;
+left: 100px;
+ }
+  .imagen3{
+position: relative;
+bottom: 1800px;
+right: 450px;
+height: 300px;
+
+}
+
+.areaa{
+position: relative;
+bottom: 1500px;
+height: 350px;
+left: 600px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.iniciocont {
+
+    position: relative;
+    width: 86em;
+    height: 60em;
+}
+
+.inicioimg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.iniciotxt {
+
+    position: absolute;
+    color: white ;
+    top: 17em;
+    left: 6em;
+    height: 50px;
+    
+}
+
+.iniciotxt .mayuscula {
+
+    text-shadow: 0 0 20px white;
+    font-size: 10em;
+    text-transform: uppercase;
+}
+.iniciotxt .arriba {
+
+    position: absolute;
+    left: -70px;
+    font-size: 40px;
+    top: -60px;
+}
+
+.iniciotxt .abajo {
+
+    position: absolute;
+    text-shadow: 0 0 10px black;
+    left: 90px;
+    font-size: 40px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 900vh;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 450px;
+
+}
+
+.header {
+
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.9;
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+.fondo {
+
+    position: fixed;
+    width: 100%;
+    z-index: -400;
+}
+
+.logo {
+
+    text-shadow: 0 0 20px purple;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.logo:hover {
+
+    color: gray;
+    transition: all 0.5s ease;
+}
+
+.navigation ul{
+
+    list-style: none;
+}
+
+.header .navigation ul li {
+    float: left;
+    position: relative;
+}
+
+.header .navigation ul li .button {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+    display: block;
+    transition: all .3s ease;
+
+}
+
+.header .navigation ul li .button:hover {
+    background-color: purple;   
+    padding: 23px;
+    transition: all 0.6s ease;
+}
+
+.header .navigation ul li ul {
+position: absolute;
+right: 0;
+width: 300px;
+background-color: black;
+display: none;
+}
+
+.header .navigation ul li ul li .button {
+
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.header .navigation ul li ul li ul {
+
+    position: absolute;
+    top: 0;
+    right: 300px;
+}
+
+.header .navigation ul li ul li {
+    width: 100%;
+}
+
+.header .navigation ul li:hover > ul {
+    
+    display: initial;
+}
+
+#toggle, 
+.header label {
+
+    display: none;
+    cursor: pointer;
+}
+
+.menu {
+    width: 45px;
+    height: 35px;
+    position: relative;
+}
+
+@media(max-width:950px) {
+    .header label {
+        display: initial;
+    }
+
+    .header { 
+        
+        padding: 20px 10%;
+    }
+
+    .header .navigation {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: black;
+        display: none;
+    }
+
+    .header .navigation ul li {
+
+        width: 100%;
+    }
+
+    .header .navigation ul li .button {
+
+        padding: 8px 30px 8px 10%;
+    }
+
+    .header .navigation ul li ul {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    .header .navigation ul li ul li {
+
+        background-color: black;
+    }
+
+    .header .navigation ul li ul li ul {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    #toggle:checked ~ .navigation {
+        display: block;
+    }
+
+}
+
+    .header .navigation ul li .button {
+
+        padding: 8px 30px 8px 10%;
+    }
+
+    .header .navigation ul li ul {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    .header .navigation ul li ul li {
+
+        background-color: black;
+    }
+
+    .header .navigation ul li ul li ul {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    #toggle:checked ~ .navigation {
+        display: block;
+    }
+
+}
+
+:root {
+    --color:aqua;
+}
+
+.btn {
+
+    position: absolute;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    bottom: -50px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    box-shadow: 0 0 20px purple;
+    transition: all 0.6s ease;
+    z-index: 2;
+    
+}
+
+.btn2 {
+
+    border: 3 black solid;
+}
+
+.btn2:hover {
+     
+    background-color: #001a2b;
+    padding: 12px;
+    box-shadow: 0 0 20px var(--color);
+    border-color: var(--color);
+}
